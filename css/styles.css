@@ -1,0 +1,149 @@
+#title{
+  background-color: #FF4C68;
+  color: #FFF;
+}
+h1{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+p{
+  color: #afafaf;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.2rem;
+
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.d-button{
+  margin: 5% 3% 5% 0;
+}
+.t-image{
+  width: 22%;
+  margin-left: 100px;
+  transform: rotate(25deg);
+  position: absolute;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#features{
+  padding: 7% 8%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+
+}
+.f-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color: #ef8172;
+  margin:1rem;
+}
+.icon:hover{
+  color: #FF4C68;
+}
+
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimage{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+
+.logo{
+  width: 13%;
+  margin: 20px 20px 50px;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col{
+  padding: 5% 3%;
+}
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+  .t-image{
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+    margin: 0;
+  }
+  h1{
+    font-size: 3rem;
+  }
+
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 15%;
+}
+.bottomh{
+  font-family: "Montserrat";
+  font-weight: 900;
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer{
+  padding: 3%  3%;
+  height: 150px;
+  background-color: #fff;
+  text-align: center;
+}
+.slogo{
+  padding: 0% 0.5% 1%;
+}
